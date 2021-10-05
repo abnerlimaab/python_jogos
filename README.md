@@ -8,6 +8,15 @@
 while(condicao):
     #Código
 ```
+
+**for**
+
+```python
+for variavel in range(inicio, fim, incremento):
+    #codigo (O valor de incremento é opcional)
+```
+As palavras reservadas break e continue auxiliam no controle do loop sendo esta para encerramento do loop e aquela apenas para encerramento de uma iteração.
+
 ### Estruturas condicionais
 
 **if**
