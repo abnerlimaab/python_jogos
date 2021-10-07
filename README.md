@@ -54,3 +54,28 @@ Utilizando a função abs() obtemos o valor absoluto de um número (desconsidera
 ```python
 abs(-50-50)
 ```
+
+### Definindo funções
+
+Para criar uma função utilizamos a palavra reservada def como no exemplo abaixo:
+
+```python
+def escolhe_jogo():
+    print("===============================")
+    print("Escolha seu jogo:")
+    print("===============================")
+
+    jogo =  int(input("(1) Advinhação (2) Forca"))
+
+    if (jogo == 1):
+        advinhacao.jogar()
+    elif (jogo == 2):
+        forca.jogar()
+```
+Obs: É muito importante incluir a condicional que define as funções que serão executadas caso o arquivo seja interpretado diretamente como no exemplo abaixo:
+
+```python
+if (__name__ == "__main__"):
+    jogar()
+```
+A condição analisa se o arquivo aberto é o main do projeto.
