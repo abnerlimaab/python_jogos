@@ -46,3 +46,11 @@ import random
 
 random.randrange(numero_inicial, numero_final + 1)
 ```
+
+### Retornando o valor absoluto de um número
+
+Utilizando a função abs() obtemos o valor absoluto de um número (desconsiderando o sinal). Desta forma, o exemplo abaixo teria como retorno 100.
+
+```python
+abs(-50-50)
+```
